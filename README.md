@@ -17,10 +17,10 @@ Note: Dataset is not uploaded due to size limitations.
 - Fraud scoring
   
 ## 5. Key Insights
-Example:
-- Fraud transactions are rare (<1%)
-- Fraud amounts are generally higher
-- High-risk transactions identified using scoring
+- Fraud transactions are extremely rare (~0.17%)
+- Fraud transactions have higher average amount (122 vs 88)
+- High-risk transactions identified using rule-based scoring
+- Majority of transactions are low-value (<50), making anomaly detection harder
 
 ## 6. SQL Concepts Used
 - Aggregations
@@ -29,6 +29,7 @@ Example:
 - CTE
 
 ## 7. Results
+- Rule-based model successfully identifies suspicious transactions using scoring logic
 - Fraud Percentage
 ![fraud_percentage](https://github.com/user-attachments/assets/b1cea981-febe-416b-ac28-0735c5951ea7)
 
