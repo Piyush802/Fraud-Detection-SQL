@@ -1,10 +1,7 @@
 # Fraud Detection Analysis using SQL
 
 ## 1 . Problem Statement
-Explain:
-- Fraud detection problem
-- Why it matters
-- Dataset challenge (imbalance)
+Fraud detection is a critical problem in the financial industry, where identifying fraudulent transactions accurately is essential to prevent financial losses. This dataset presents a challenging scenario due to extreme class imbalance, where fraudulent transactions make up less than 1% of total data. Additionally, overlapping transaction patterns between fraudulent and normal transactions make detection difficult.
   
 ## 2. Dataset
 Source (Kaggle)
